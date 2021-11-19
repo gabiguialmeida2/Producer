@@ -1,8 +1,11 @@
-module main
+module github.com/gabiguialmeida2/Producer
 
 go 1.17
 
-require github.com/streadway/amqp v1.0.0
+require (
+	github.com/gabiguialmeida2/rabbitConnection v0.0.0-20211119181316-44b87535930f
+	github.com/streadway/amqp v1.0.0
+)
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect

@@ -7,8 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"rabbitConnection"
-
+	"github.com/gabiguialmeida2/rabbitConnection"
 	"github.com/streadway/amqp"
 )
 
